@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    color: blueviolet;
+}
+
+#divPrincipal{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.divContenedor{
+    border-radius: 5px;
+    background-color: white;
+    max-width: 450px;
+    position: relative;
+    margin: auto;
+    top: 18vh;
+    padding: 50px;
+}
+
+.divFrase{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -40px;
+}
+
+.divFrase label{
+    font-size: 75px;
+    position: relative;
+    top: 25px;
+    left: 0px;
+}
+
+.div-autor{
+    text-align: right;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.divBotones{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.divBotones div{
+    width: 50%;
+    
+}
+
+.divBotones button{
+    background-color: blueviolet;
+    border: 0px;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.divBotones button:hover{
+    background-color: rgb(157, 74, 235);
+}
+
+.divNew{
+    text-align: right;
+}
+
+.divNew button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
